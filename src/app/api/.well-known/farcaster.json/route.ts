@@ -11,26 +11,21 @@ export async function GET() {
         "miniapp": {
             "version": "1",
             "name": "Base Demo",
-            "homeUrl": "https://ex.co",
-            "iconUrl": "https://ex.co/i.png",
-            "splashImageUrl": "https://ex.co/l.png",
+            "homeUrl": "https://base-app-demo-green.vercel.app/",
+            "iconUrl": "https://base-app-demo-green.vercel.app/icono.png",
+            "splashImageUrl": "https://base-app-demo-green.vercel.app/globo-1024.1024.png",
             "splashBackgroundColor": "#000000",
-            "webhookUrl": "https://ex.co/api/webhook",
+            "webhookUrl": "https://base-app-demo-green.vercel.app/api/webhook",
             "subtitle": "Easy to manage",
             "description": "Track and manage your cryptocurrency portfolio.",
-            "screenshotUrls": [
-                "https://ex.co/s1.png",
-                "https://ex.co/s2.png",
-                "https://ex.co/s3.png"
-            ],
             "primaryCategory": "finance",
             "tags": ["finance"],
-            "heroImageUrl": "https://ex.co/og.png",
+            "heroImageUrl": "https://base-app-demo-green.vercel.app/pantallaVertical.png",
             "tagline": "Save instantly",
             "ogTitle": "Example Mini App",
             "ogDescription": "Easy to manage portfolio.",
-            "ogImageUrl": "https://ex.co/og.png",
-            "noindex": true
+            "ogImageUrl": "https://base-app-demo-green.vercel.app/pantallaHorizontal.png",
+            "noindex": false,
         }
     });
 }
